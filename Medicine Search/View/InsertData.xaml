@@ -1,0 +1,54 @@
+﻿<Window x:Class="Medicine_Search.InsertData"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Medicine_Search"
+        mc:Ignorable="d"
+        Title="Medicine Search" Height="700" Width="450" Background="#6aa5cc">
+
+    <StackPanel Background="Beige" Height="632" Width="420" Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,10,0,27">
+        <Label Width="auto" HorizontalAlignment="Center" FontWeight="Bold" FontSize="40" Content="Insert New Data" Margin="0,20,0,10" Foreground="Black"/>
+        <Grid/>
+        <StackPanel Orientation="Vertical" HorizontalAlignment="Center" Width="auto" Height="500" Margin="0,12,0,44">
+            <Label FontSize="17" Margin="26,0,0,0" Content="Enter Medicine"/>
+            <StackPanel Orientation="Horizontal" Margin="10,0,0,0" >
+                <TextBox x:Name="Search_Name" Background="White" HorizontalAlignment="Left" FontSize="20" Margin="5" TextWrapping="NoWrap" VerticalAlignment="Top" Height="30" Width="250"/>
+            </StackPanel>
+
+            <Label FontSize="17" Margin="26,20,0,0" Content="Enter Formula"/>
+            <StackPanel Orientation="Horizontal" Margin="10,0,0,0" >
+                <TextBox x:Name="Search_Formula" Background="White" FontSize="20" HorizontalAlignment="Left" Margin="5" TextWrapping="NoWrap" VerticalAlignment="Top" Height="30" Width="250"/>
+            </StackPanel>
+
+
+            <Label FontSize="17" Margin="26,20,0,0" Content="Enter Manufacturer"/>
+            <StackPanel Orientation="Horizontal" Margin="10,0,0,0" >
+                <TextBox x:Name="AddFormula" Background="White" FontSize="20" HorizontalAlignment="Left" Margin="5" TextWrapping="NoWrap" VerticalAlignment="Top" Height="30" Width="250"/>
+            </StackPanel>
+
+            <Label FontSize="17" Margin="26,20,0,0" Content="Enter Type"/>
+            <StackPanel Orientation="Horizontal" Margin="10,0,0,0" RenderTransformOrigin="0.542,0.517" Width="250" >
+                <ComboBox Height="30" Width="250">
+                    <TextBlock><Run Text="Injection"/></TextBlock>
+                    <TextBlock><Run Text="Oral Syrup"/></TextBlock>
+                    <TextBlock><Run Text="Tablet"/></TextBlock>
+                    <TextBlock><Run Text="Capsule"/></TextBlock>
+                    <TextBlock><Run Text="Drip"/></TextBlock>
+                </ComboBox>
+            </StackPanel>
+            <Label FontSize="17" Margin="26,20,0,0" Content="Enter Use"/>
+            <StackPanel Orientation="Horizontal" Margin="10,0,0,0" Width="250" >
+                <ComboBox x:Name="comboBox" Height="30" Width="250" >
+                    <TextBlock>Headache</TextBlock>
+                    <TextBlock>Painkiller</TextBlock>
+                    <TextBlock>Vomitting</TextBlock>
+                    <TextBlock>Anesthesia</TextBlock>
+                </ComboBox>
+            </StackPanel>
+            <Button x:Name="Submit" Content="Submit" Width="80" Margin="28"/>
+        </StackPanel>
+
+
+    </StackPanel>
+</Window>

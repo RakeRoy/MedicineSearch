@@ -1,0 +1,17 @@
+﻿<Window x:Class="MedicineSearch.ManufacturerForm"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MedicineSearch"
+        mc:Ignorable="d"
+        Title="FormulaForm" Height="350" Width="450">
+    <Grid Background="#6aa5cc" Width="auto">
+        <Rectangle Margin="10" Width="auto" Fill="White" />
+        <Label Width="auto" HorizontalAlignment="Center" FontWeight="Bold" FontSize="24" Content="Insert Manufacturer" Margin="103,30,103,245" Foreground="Black"/>
+        <Label Width="133" HorizontalAlignment="Center" FontWeight="Normal" FontSize="14" Content="Enter Manufacturer" Margin="121,99,188,179" Foreground="Black"/>
+        <TextBox x:Name="txtManufacturer" HorizontalAlignment="Center" Height="30" Margin="0,130,0,139" TextWrapping="Wrap" Text="" Width="200"/>
+        <Button x:Name="button" Content="Submit" HorizontalAlignment="Center" Margin="0,209,0,0" VerticalAlignment="Top" Width="75"/>
+
+    </Grid>
+</Window>

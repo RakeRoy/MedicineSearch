@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.779
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{5517039C-2F92-46C6-952D-8D09D354D513}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Objects", "Objects\Objects.csproj", "{7643B14A-55D1-4910-AA7A-0B4DA0614049}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL", "BLL\BLL.csproj", "{DB9DED57-B56D-4CA8-84B2-EBE376C9266F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MedicineSearch", "MedicineSearch\MedicineSearch.csproj", "{4FA9BF86-29BD-4D44-A378-165DDAF88D3D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Pictures", "Pictures", "{60EB21C7-D7F5-4564-9E22-E0F3C9A5CADF}"
+	ProjectSection(SolutionItems) = preProject
+		Pictures\ahsaan.jpg = Pictures\ahsaan.jpg
+		Pictures\background.jpg = Pictures\background.jpg
+		Pictures\cart.png = Pictures\cart.png
+		Pictures\carticon.png = Pictures\carticon.png
+		Pictures\fucksi.jpg = Pictures\fucksi.jpg
+		Pictures\fucksi2.jpg = Pictures\fucksi2.jpg
+		Pictures\hashirka.jpg = Pictures\hashirka.jpg
+		Pictures\hashirnalla.jpg = Pictures\hashirnalla.jpg
+		Pictures\hashirnalla2.jpg = Pictures\hashirnalla2.jpg
+		Pictures\insert.png = Pictures\insert.png
+		Pictures\inserticon.png = Pictures\inserticon.png
+		Pictures\Rakay.jpeg = Pictures\Rakay.jpeg
+		Pictures\record.png = Pictures\record.png
+		Pictures\report.png = Pictures\report.png
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5517039C-2F92-46C6-952D-8D09D354D513}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5517039C-2F92-46C6-952D-8D09D354D513}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5517039C-2F92-46C6-952D-8D09D354D513}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5517039C-2F92-46C6-952D-8D09D354D513}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7643B14A-55D1-4910-AA7A-0B4DA0614049}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7643B14A-55D1-4910-AA7A-0B4DA0614049}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7643B14A-55D1-4910-AA7A-0B4DA0614049}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7643B14A-55D1-4910-AA7A-0B4DA0614049}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB9DED57-B56D-4CA8-84B2-EBE376C9266F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB9DED57-B56D-4CA8-84B2-EBE376C9266F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB9DED57-B56D-4CA8-84B2-EBE376C9266F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB9DED57-B56D-4CA8-84B2-EBE376C9266F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FA9BF86-29BD-4D44-A378-165DDAF88D3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FA9BF86-29BD-4D44-A378-165DDAF88D3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FA9BF86-29BD-4D44-A378-165DDAF88D3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FA9BF86-29BD-4D44-A378-165DDAF88D3D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4B173CEF-39AB-4D10-A699-4B8C57913AA2}
+	EndGlobalSection
+EndGlobal
